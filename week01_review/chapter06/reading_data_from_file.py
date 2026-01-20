@@ -4,7 +4,7 @@ def main():
     # open the file in read mode using the 'r' argument
     input_file = open(PATH + 'my_data.txt', 'r')
    
-    file_data = input_file.read()
+    file_data = input_file.readlines()
 
     print(file_data)
 

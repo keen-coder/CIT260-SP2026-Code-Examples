@@ -1,3 +1,5 @@
+import snippets.py
+
 # Use the open function to open a file and the 'w' to indicate you will open it in write mode.
 # If the file does not exist, the file will be created. If it does exist the old data in the file
 # will be overwritten (the old data is destroyed and replaced with the new data.)

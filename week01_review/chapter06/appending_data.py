@@ -1,4 +1,4 @@
-
+import snippets
 
 # To append data to a file, (add data to the end of the file without deleting the old data), 
 # open the file in append mode.
