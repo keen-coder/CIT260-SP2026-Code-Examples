@@ -12,6 +12,7 @@ print(numbers)
 
 # Change index 0 to 99
 numbers[0] = 99
+numbers[2] += 1
 print(numbers)
 
 # NOTE: The index must be within bounds or else you will raise an IndexError

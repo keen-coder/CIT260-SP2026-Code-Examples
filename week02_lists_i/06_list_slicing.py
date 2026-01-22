@@ -49,7 +49,7 @@ print(f'days =\t\t{days}')
 print(f'days_copy =\t{days_copy}')
 
 # Negative values can be used to get positions relative to the end of the list
-days_slice = days[-5:-1]
+days_slice = days[-5:-1] # [2, 6]
 print(days_slice)
 
 # You can get a reverse of a list using the following:

@@ -13,6 +13,7 @@ animals = ['tiger', 'otter', 'falcon', 'panda', 'koala', 'dolphin', 'lemur']
 print(animals[0])   # prints 'tiger'
 print(animals[4])   # prints 'panda'
 print(animals[6])   # prints 'lemur'
+print(animals[len(animals) - 1])
 # print(animals[7])   # Crashes the program with an IndexError
 
 # The built-in len() function can tell you the size/length (number of elements)
@@ -26,7 +27,7 @@ print(num_animals) # prints 7
 
 # Iterating over a list from beginning to end with indexing
 for index in range(len(animals)):
-    print(animals[index], sep=' ')
+    print(animals[index], end=' ')
 print()
 
 # Iterating over a list backwards
