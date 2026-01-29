@@ -45,6 +45,7 @@ print()
 # You could still have an if clause at the end of the loops if necessary
 matrix = [[1, 2], [3, 4], [5, 6]]
 flat = [num for row in matrix for num in row] # Note the nested for loop
+print('ORIGINAL:', matrix)
 print('FLATTENED:', flat)
 print()
 
@@ -58,6 +59,7 @@ print()
 # Read all lines from a file and strip them of whitespace
 with open(PATH + 'log.txt') as f:
     lines = [line.strip() for line in f]
+    print(lines)
 
 # Print the results
 print('LOG FILE CLEANED:')
