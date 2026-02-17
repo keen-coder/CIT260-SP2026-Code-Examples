@@ -15,8 +15,11 @@ def main():
         if ch == 'T' or ch  == 't':
             count += 1
 
+    count2 = my_string.count('t') + my_string.count('T')
+
     # Print the result.
     print(f'The letter T appears {count} times.')
+    print(f'The letter T appears {count2} times.')
 
 # Call the main function.
 if __name__ == '__main__':

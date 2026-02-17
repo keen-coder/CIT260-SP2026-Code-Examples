@@ -105,21 +105,25 @@ is_upper = s4.isupper()            # True
 
 # String Methods - Strip & Justify Methods=====================================
 s = '   banana   '
+s2 = 'banana'
 
 stripped = s.strip()               # 'banana'
 lstripped = s.lstrip()             # 'banana   '
 rstripped = s.rstrip()             # '   banana'
-left_justified = s.ljust(15, '.')  # '   banana......'
-right_justified = s.rjust(15, '.') # '......   banana'
+left_justified = s2.ljust(15, '.')  # '   banana......'
+right_justified = s2.rjust(15, '.') # '......   banana'
+print(left_justified)
+print(right_justified)
 #==============================================================================
 
 # String Methods - Split & Join Methods========================================
 s = 'apple,banana,cherry'
 
 split_list = s.split(',')                   # ['apple', 'banana', 'cherry']
-rsplit_list = s.rsplit(',', 1)              # ['apple, banana', 'cherry']
+rsplit_list = s.rsplit(',', 1)              # ['apple,banana', 'cherry']
 lines = 'line1\nline2\nline3'.splitlines()  # ['line1', 'line2', 'line3']
 joined = '-'.join(['a', 'b', 'c'])          # 'a-b-c'
+print(rsplit_list)
 #==============================================================================
 
 # String Methods - Start/End Check Methods=====================================
