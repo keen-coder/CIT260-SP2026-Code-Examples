@@ -6,6 +6,7 @@ def main():
     # Read the contents of the file into a list.
     with open(PATH + 'numberlist.txt', 'r') as infile:
         numbers = infile.readlines()
+        print(numbers)
 
     # Convert each element to an int.
     for index in range(len(numbers)):

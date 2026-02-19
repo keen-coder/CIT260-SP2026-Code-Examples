@@ -1,7 +1,7 @@
+
+# Creating a 1-element tuple
 tuple1 = (1,)
 print(type(tuple1))
-
-print(help(tuple))
 
 # A good use for tuples, is when you want to return multiple values
 # from a function.
@@ -10,12 +10,15 @@ print(help(tuple))
 
 # find the min and max values of a given list
 def min_max(values):
-    return (min(values), max(values))  # tuple of results
+    min_value = min(values)
+    max_value = max(values)
+    
+    return (min_value, max_value)  # tuple of results
 
 nums = [10, 3, 7, 42, 5]
 result = min_max(nums)
 print(result)        # (3, 42)
-low, high= result   # tuple unpacking
+low, high = result   # tuple unpacking
 print(low, high)     # 3 42
 
 # Tuples are great for coordinates
@@ -24,5 +27,6 @@ print(f"x={point[0]}, y={point[1]}")
 
 # Tuples are also good for storing record information like a row in a database
 employee = ("Alice", "HR", 75000)
+print(employee[0])
 name, dept, salary = employee
 print(f"{name} works in {dept} earning ${salary}")

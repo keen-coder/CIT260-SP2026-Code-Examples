@@ -27,7 +27,6 @@ numbers = [1, 2, 3, 4, 5]
 numbers.insert(2, 10) # insert 10 at index 2
 print(f'insert 10 at index 2: {numbers}')
 
-
 # sort() will sort your list!
 jumble = []
 for x in range(0, 10):

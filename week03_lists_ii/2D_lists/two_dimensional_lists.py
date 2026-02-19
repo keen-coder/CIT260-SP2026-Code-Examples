@@ -51,10 +51,10 @@ matrix = [[1, 2, 3],
 # Find the number of columns
 # Use a list comprehension to create a list of row lengths
 # Find the maximum value from the resulting list comprehension
-num_cols = max([len(row) for row in matrix])
+max_cols = max([len(row) for row in matrix])
 
-for col in range(num_cols):
+for col in range(max_cols):
     for row in range(len(matrix)):
         if col < len(matrix[row]):  # only print if element exists
             print(matrix[row][col], end=" ")
-print()
+    print()

@@ -1,3 +1,5 @@
+import random
+
 # Python has many built-in functions that can work with lists. del, sum(), min,
 # max() and len() just to name a few.
 
