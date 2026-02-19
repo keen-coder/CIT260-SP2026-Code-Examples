@@ -1,0 +1,1 @@
+re.fullmatch(regex1, number) or re.fullmatch(regex2, number

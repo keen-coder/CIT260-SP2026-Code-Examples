@@ -2,14 +2,19 @@
 # Use curly braces {} to create a dictionary
 
 # Dictionary for a simple phone book
-phonebook = {'Jason':'555-5555', 'Sally':'555−6435', 
+phonebook = {'Jason':[['555-5555', '555-1234'],
+                      ['555-1256', '555-0368']],
+             'Sally':'555−6435', 
              'Jackson':'555−9486'}
+
 
 # Dictionary to store the radii of celestial bodies in the solar system
 sol_sys_radii = {'sun': 696340, 'mercury': 2439.7, 'venus': 6051.8,
                  'earth': 6371.0, 'mars': 3389.5, 'jupiter': 69911.0,
                  'saturn': 58232.0, 'uranus': 25362.0, 'neptune': 24622.0,
                  'pluto': 1188.3}
+
+print(sol_sys_radii['sun'])
 
 # Dictionary to store configuration settings
 config_dict = {    

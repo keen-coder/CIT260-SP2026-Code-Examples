@@ -1,6 +1,6 @@
 import re
 
-regex_phone = r'^\([0-9]{3}\)[0-9]{3}-[0-9]{4}$'
+# regex_phone = r'^\([0-9]{3}\)[0-9]{3}-[0-9]{4}$'
 
 # findall() Function=============================================================
 # NOTE: The use of the letter 'r' in front of the regex this creates a 
@@ -39,6 +39,8 @@ with open('week05_more_strings_regex/regex/phone_numbers.txt', 'r') as phone_fil
 
 print('Valid / Invalid Phone Numbers')
 for number in phone_numbers:
-    is_match = re.fullmatch(regex1, number) or re.fullmatch(regex2, number) or re.fullmatch(regex3, number)
+    is_match = re.fullmatch(regex1, number) or \
+               re.fullmatch(regex2, number) or \
+               re.fullmatch(regex3, number)
     print(f'{number}\t=\t{(is_match != None)}')
 #==============================================================================
