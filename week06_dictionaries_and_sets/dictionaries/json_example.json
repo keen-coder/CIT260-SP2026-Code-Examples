@@ -1,3 +1,7 @@
+json["glossary"]["GlossDiv"]["GlossList"]["GlossEntry"]["Acronym"]
+
+
+json = 
 {
     "glossary": {
         "title": "example glossary",
