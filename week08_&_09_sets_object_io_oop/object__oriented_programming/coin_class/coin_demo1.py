@@ -1,5 +1,5 @@
 import random
-from coin import Coin
+from week08_sets_object_io_oop_i.object__oriented_programming.coin_class.coin import Coin
 
 # The Coin class simulates a coin that can
 # be flipped.

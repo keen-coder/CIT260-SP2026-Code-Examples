@@ -16,3 +16,6 @@ class Circle:
     
     def circumference(self):
         return 2 * self.__radius * math.pi
+    
+    def __str__(self):
+        return f'Circle: {{radius = {self.__radius}}}'
